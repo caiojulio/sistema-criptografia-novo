@@ -1,0 +1,62 @@
+.buttonStyle{
+    margin-top: 300px;
+    display: inline-block;
+    padding: 35px 35px;
+    background: linear-gradient(#000000, #808080);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+  
+.buttonStyle:hover {
+    background: #808080;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 9%;
+    color: #ffffff;
+}
+
+.container h1{
+    margin-right: 180px;
+    font-size: 40px;
+    margin-right: 50%;
+}
+
+.container h2{
+    font-size: 50px;
+}
+
+.container button{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #8080800d;
+    padding: 35px 35px;
+    margin-left: 350px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease ;
+}
+
+.container button:hover{
+    background-color: #80808060;
+}

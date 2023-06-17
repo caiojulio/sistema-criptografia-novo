@@ -1,0 +1,12 @@
+.navbarStyle{
+  background: #0000004f;
+  color: #ffffff;
+  height: 150px;
+  display: flex;
+}
+
+.h1{
+  padding: 20px;
+  margin-left: 15px;
+  font-size: 30px;
+}
