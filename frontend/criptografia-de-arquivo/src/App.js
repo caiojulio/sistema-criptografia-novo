@@ -1,12 +1,18 @@
 import Navbar from './components/nav/Navbar';
-import ButtonUpload from './components/ButtonUpload/ButtonUpload';
+import ButtonEncrypt from './components/ButtonEncrypt/ButtonEncrypt';
+import ButtonDecrypt from './components/ButtonDecrypt/ButtonDecrypt';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <Navbar/>
-      <ButtonUpload/>
-    </div>
+    <Router> {/* Definição de rota do sistema */}
+        <Navbar/>
+
+        <Routes>
+          <Route exact path='/' element={<ButtonEncrypt/>}/>
+          <Route exact path='/ButtonDecrypt' element={<ButtonDecrypt/>} />
+        </Routes>
+    </Router>
   );
 }
 

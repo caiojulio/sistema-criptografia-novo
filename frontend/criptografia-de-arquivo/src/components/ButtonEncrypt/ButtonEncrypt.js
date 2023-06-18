@@ -1,7 +1,7 @@
-import styles from './button.module.css'
+import styles from './buttonEncrypt.module.css'
 import axios from 'axios';
 
-export default function ButtonUpload(){
+export default function ButtonEncrypt(){
 
     function Criptografar(){
 
@@ -15,10 +15,13 @@ export default function ButtonUpload(){
     }
 
     return(
-        <div className={styles.container}>
+        <div className={styles.container}> 
+            {/* parte responsavel por renderizar a interface padrão de criptografia */}
+
             <h1>Esta sistema de criptografia, criptografa um arquivo com base no algoritmo de criptografia AES utilizando chave Fernet e o modo CBC</h1>
             <h2>Criptografe seu arquivo:</h2>
             <button onClick={Criptografar}>Criptografar</button>
+
         </div>
     )
 };
