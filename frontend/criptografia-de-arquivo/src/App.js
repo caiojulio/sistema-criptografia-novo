@@ -10,6 +10,7 @@ function App() {
 
         <Routes>
           <Route exact path='/' element={<ButtonEncrypt/>}/>
+          <Route exact path='/ButtonEncrypt' element={<ButtonEncrypt/>}/>
           <Route exact path='/ButtonDecrypt' element={<ButtonDecrypt/>} />
         </Routes>
     </Router>

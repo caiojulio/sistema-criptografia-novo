@@ -8,7 +8,7 @@ export default function Navbar(){
 
             <h1 className={styles.h1}>Criptografia de Arquivo</h1>
             <ul className={styles.items}>
-                <li> <Link to='/'>Criptografar</Link> </li>
+                <li> <Link to='/ButtonEncrypt'>Criptografar</Link> </li>
                 <li> <Link to='/ButtonDecrypt'>Descriptografar</Link> </li>
             </ul>
 
