@@ -48,7 +48,8 @@ def my_view(request):
     
 
     # seção para iniciar escolha de documento
-    output = subprocess.run(['zenity', '--file-selection', '--title=Selecione um arquivo'], capture_output=True, text=True)
+    default_directory = os.path.expanduser('~/Desktop') #definindo diretorio onde deve ser aberto a escolha do arquivo a ser criptografado
+    output = subprocess.run(['zenity', '--file-selection', '--title=Selecione um arquivo', '--directory', '--filename=' + default_directory], capture_output=True, text=True)
     file_path = output.stdout.strip()
     dirname = encrypt_file(file_path)
     
