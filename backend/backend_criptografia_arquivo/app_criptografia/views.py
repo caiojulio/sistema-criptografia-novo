@@ -5,7 +5,7 @@ import subprocess
 from cryptography.fernet import Fernet
 import os
 
-def my_view(request):
+def my_view(request): #view para criptografar
     
     def encrypt_file(path_file):
 
@@ -49,8 +49,11 @@ def my_view(request):
 
     # seção para iniciar escolha de documento
     default_directory = os.path.expanduser('~/Desktop') #definindo diretorio onde deve ser aberto a escolha do arquivo a ser criptografado
-    output = subprocess.run(['zenity', '--file-selection', '--title=Selecione um arquivo', '--directory', '--filename=' + default_directory], capture_output=True, text=True)
+    output = subprocess.run(['zenity', '--file-selection', '--title=Selecione um arquivo', '--filename=' + default_directory], capture_output=True, text=True)
     file_path = output.stdout.strip()
     dirname = encrypt_file(file_path)
     
     return HttpResponse(f"{dirname}")
+
+def testando(request): #view de descriptografia
+      return HttpResponse('Funcionando!!!')

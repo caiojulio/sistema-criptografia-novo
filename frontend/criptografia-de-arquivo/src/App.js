@@ -1,4 +1,4 @@
-import Navbar from './components/nav/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import ButtonEncrypt from './components/ButtonEncrypt/ButtonEncrypt';
 import ButtonDecrypt from './components/ButtonDecrypt/ButtonDecrypt';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

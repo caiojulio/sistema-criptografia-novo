@@ -1,0 +1,19 @@
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h1{
+    margin-right: 180px;
+    font-size: 35px;
+    margin-right: 50%;
+}
+
+.container h2{
+    font-size: 45px;
+}
