@@ -3,4 +3,4 @@
 
 Este repositório faz referencia ao sistema de criptografia de arquivo reconstruído utilizando as tecnologias: React(JavaScript) e Django(Python).  ⚠️ STATUS: Em desenvolvimento
  ##
-A proposta do projeto teve origem na disciplina de Programação de Computadores 1, na faculdade de computação da Universidade Federal do Pará. O sistema é composto por criptografia AES (Advanced Encryption Standard"), que utiliza chave Fernet para descriptografar arquivo, em modo CBC (Cipher Block Chaining).
+A proposta do projeto teve origem na disciplina de Programação de Computadores 1, na faculdade de computação da Universidade Federal do Pará. O sistema é composto por criptografia AES (Advanced Encryption Standard), que utiliza chave Fernet para descriptografar arquivo, em modo CBC (Cipher Block Chaining).
